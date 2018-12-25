@@ -1,0 +1,15 @@
+package com.itheima.service;
+
+import com.itheima.domain.Account;
+
+import java.util.List;
+
+public interface AccountService {
+
+    //查询所有
+    List<Account> findAll();
+
+
+    //保存数据
+    void save(Account account);
+}
